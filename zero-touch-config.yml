@@ -5,16 +5,18 @@ antora:
   dir: www
   modules:
     - name: index
-      label: Module 1
+      label: Install Podman
     - name: module-02
-      label: Module 2
+      label: Creating Containers in the Web Console
     - name: module-03
-      label: Module 3
+      label: Test Grafana Web Interface (GUI)
     - name: module-04
-      label: Module 4
+      label: Podman Container Management
     - name: module-05
-      label: Module 5
+      label: Test Grafana Web Interface
 tabs:
-  - name: terminal
+  - name: ">_ Terminal"
     port: 443
-    path: /wetty
+    path: /tty1
+    user: root
+    host: rhel
