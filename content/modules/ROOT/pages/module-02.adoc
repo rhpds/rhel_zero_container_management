@@ -12,8 +12,10 @@ First, click on the `+RHEL Web Console+` tab.
 image:../assets/pop-out-2.png[../assets/pop-out-2] 
 
 Next, log in with the following credentials: 
+
 >* Username: rhel
 >* Password: redhat
+
 image:../assets/Web-console-login.png[../assets/Web-console-login]
 
 After logging in, click on the button in the web console labeled `+Enable administrative access+`.
