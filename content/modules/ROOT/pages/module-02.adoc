@@ -9,13 +9,12 @@ containers more simply.
 First, click on the `+RHEL Web Console+` tab.
 
 .pop-out
-image::pop-out-2.png[pop-out-2] 
+image::pop-out-2.png[pop-out-2]
 
-Next, log in with the following credentials: 
+Next, log in with the following credentials:
 
->* Username: rhel
-
->* Password: redhat
+*Username:* {cockpit_user_name}
+*Password:* {cockpit_user_password}
 
 .Web-console-login
 image::Web-console-login.png[Web-console-login]
@@ -34,14 +33,14 @@ image::auth.png[.auth]
 In the menu on the left side of the web console, select `+Podman containers+`
 image::podman_containers_button.png[../assets/podman_containers_button]
 
-From here, you can manage https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods[containers and pods]. Click `+Create container+` to create your Grafana container.
+From here, you can manage https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods[containers and pods^]. Click `+Create container+` to create your Grafana container.
 
 .create_container_button
 image::create_container_button.png[create_container_button]
 
 In the `+Details+` tab of the `+Create container+` dialog, enter the following details: 
 
-* Name: Grafana 
+* Name: Grafana
 * Image: docker.io/grafana/grafana
 
 .grafana_details_tab
