@@ -7,6 +7,7 @@ container through Podman’s command line interface (CLI).
 
 First, install RHEL Container Tools by running the following command:
 
+.Command
 [source,bash,subs="+macros,+attributes",role=execute]
 ----
 dnf install -y container-tools
@@ -23,14 +24,16 @@ Cheat Sheet].
 
 Start Podman using `+systemctl+`
 
-[source,bash]
+.Command
+[source,bash,subs="+macros,+attributes",role=execute]
 ----
 systemctl start podman
 ----
 
+.Command
 Using `+systemctl+`, allow Podman to start every time the system boots:
 
-[source,bash]
+[source,bash,subs="+macros,+attributes",role=execute]
 ----
 systemctl enable podman
 ----
