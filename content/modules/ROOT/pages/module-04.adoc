@@ -2,11 +2,13 @@
 
 Now you will set up a new Grafana container, but this time, you will do so through the Podman command line interface (CLI). Next, download and start a Podman image for Grafana with this command:
 
+.Command
 [source,bash,subs="+macros,+attributes",role=execute]
 ----
 podman run -d --name=Grafana -p 3000:3000 docker.io/grafana/grafana:latest
 ----
 
+.Output
 [source,text]
 ----
 Explanation of the command you just ran: 
@@ -17,11 +19,13 @@ Explanation of the command you just ran:
 
 Finally, run this command to view your containers in Podman:
 
+.Command
 [source,bash,subs="+macros,+attributes",role=execute]
 ----
 podman ps
 ----
 
+.Output
 The output should look like this, although the Container ID will differ:
 
 [source,text]
