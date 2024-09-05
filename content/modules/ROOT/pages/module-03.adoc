@@ -17,6 +17,10 @@ Log in using the default credentials:
 
 |===
 
+____
+_NOTE:_ Please check the link is using http.
+____
+
 .grafanaloginmenu
 image::grafanaloginmenu.png[grafanaloginmenu]
 
