@@ -49,7 +49,7 @@ In the `+Details+` tab of the `+Create container+` dialog, enter the following d
 * Image: docker.io/grafana/grafana
 
 ____
-_NOTE:_ If you see No images found, write grafana and select the first option.
+_NOTE:_ If you see No images found, Select docker.io from the options and write grafana and select the first option.
 ____
 
 .grafana_details_tab
