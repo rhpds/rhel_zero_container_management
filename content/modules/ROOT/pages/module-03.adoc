@@ -16,10 +16,6 @@ Log in using the default credentials:
 
 |===
 
->* Username: admin 
-
->* Password: admin
-
 .grafanaloginmenu
 image::grafanaloginmenu.png[grafanaloginmenu]
 
