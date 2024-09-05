@@ -33,11 +33,6 @@ After logging in, click on the button in the web console labeled `+Enable admini
 .turn-on-admin
 image::turn-on-admin.png[turn-on-admin]
 
-Next, enter the password (`+redhat+`) and click `+Authenticate+`
-
-.auth
-image::auth.png[.auth]
-
 In the menu on the left side of the web console, select `+Podman containers+`
 image::podman_containers_button.png[../assets/podman_containers_button]
 
