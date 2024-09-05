@@ -30,4 +30,4 @@ You may be prompted to change the login credentials. You can press the `+skip+` 
 .skippassword
 image::skippassword.png[skippassword] 
 
-You may now explore Grafana hosted in your container through Podman.
+You can delete the `+Container+` created before using Web Console and proceed to the next section.
