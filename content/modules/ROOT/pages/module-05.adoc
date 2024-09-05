@@ -1,18 +1,31 @@
-= Test Grafana Web Interface
+= Test Grafana Web Interface (GUI)
 
-Click on the `+Grafana+` tab in the lab environment. You can now explore this website hosted on your machine. If you see a login page, you have configured your container correctly.
+Copy the `+Grafana+` link below and paste it in incognito window. 
+You can now explore this website hosted on your machine. If you see a login page, you have configured your container correctly.
 
-Log in using the default credentials: 
+Log in using the default credentials:
 
->* Username: admin
+[cols="1,1,1"]
+|===
+|*Username*
+|*Password*
+|*Grafana Console*
 
->* Password: admin
+|admin
+|admin
+|http://{targethost}:3000
+
+|===
+
+____
+_NOTE:_ Please check the link is using http.
+____
 
 .grafanaloginmenu
 image::grafanaloginmenu.png[grafanaloginmenu]
+
 You may be prompted to change the login credentials. You can press the `+skip+` button on that dialog box if you wish.
 
 
 .skippassword
-image::skippassword.png[skippassword]
-You may now explore Grafana hosted in your container through Podman.
+image::skippassword.png[skippassword] 
