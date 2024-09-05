@@ -1,6 +1,6 @@
 = Test Grafana Web Interface (GUI)
 
-Click on the `+Grafana+` tab in the lab environment. You can now explore this website hosted on your machine. If you see a login page, you have configured your container correctly.
+Click on the `+Grafana+` link below. You can now explore this website hosted on your machine. If you see a login page, you have configured your container correctly.
 
 Log in using the default credentials:
 
