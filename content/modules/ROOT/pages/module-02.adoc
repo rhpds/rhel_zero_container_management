@@ -46,6 +46,10 @@ In the `+Details+` tab of the `+Create container+` dialog, enter the following d
 * Name: Grafana
 * Image: docker.io/grafana/grafana
 
+____
+_NOTE:_ If you see No images found, write grafana and select the first option.
+____
+
 .grafana_details_tab
 image::grafana_details_tab.png[grafana_details_tab]
 
