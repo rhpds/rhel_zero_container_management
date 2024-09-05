@@ -4,6 +4,18 @@ Click on the `+Grafana+` tab in the lab environment. You can now explore this we
 
 Log in using the default credentials:
 
+[cols="1,1,1"]
+|===
+|*Username*
+|*Password*
+|*Grafana Console*
+
+|admin
+|admin
+|http://{targethost}:3000[Grafana Console^]
+
+|===
+
 >* Username: admin 
 
 >* Password: admin
