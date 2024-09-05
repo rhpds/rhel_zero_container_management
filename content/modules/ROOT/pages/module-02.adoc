@@ -34,7 +34,9 @@ After logging in, click on the button in the web console labeled `+Enable admini
 image::turn-on-admin.png[turn-on-admin]
 
 In the menu on the left side of the web console, select `+Podman containers+`
-image::podman_containers_button.png[../assets/podman_containers_button]
+
+.podman_containers_button
+image::podman_containers_button.png[podman_containers_button]
 
 From here, you can manage https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods[containers and pods^]. Click `+Create container+` to create your Grafana container.
 
