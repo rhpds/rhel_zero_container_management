@@ -8,6 +8,18 @@ containers more simply.
 
 First, click on the `+RHEL Web Console+` tab.
 
+[cols="1,1,1"]
+|===
+|*Username*
+|*Password*
+|*Red Hat Enterprise Linux Web Console*
+
+|{cockpit_user_name}
+|{cockpit_user_password}
+|{cockpit_url}[RHEL Web Console^]
+
+|===
+
 .pop-out
 image::pop-out-2.png[pop-out-2]
 
