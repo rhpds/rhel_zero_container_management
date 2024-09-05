@@ -6,7 +6,9 @@ Podman’s command line interface (CLI). The RHEL web console gives you a
 graphical view of your containers and can help you customize your
 containers more simply.
 
-First, click on the `+RHEL Web Console+` tab.
+First, Copy the Web Console link below and paste in new incognito window in your browser.
+
+Next, log in with the following credentials:
 
 [cols="1,1,1"]
 |===
@@ -20,13 +22,7 @@ First, click on the `+RHEL Web Console+` tab.
 
 |===
 
-.pop-out
-image::pop-out-2.png[pop-out-2]
 
-Next, log in with the following credentials:
-
-*Username:* {cockpit_user_name}
-*Password:* {cockpit_user_password}
 
 .Web-console-login
 image::Web-console-login.png[Web-console-login]
