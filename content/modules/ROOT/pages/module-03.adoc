@@ -12,7 +12,7 @@ Log in using the default credentials:
 
 |admin
 |admin
-|http://{targethost}:3000[Grafana Console^]
+|http://{targethost}:3000
 
 |===
 
