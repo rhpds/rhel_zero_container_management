@@ -20,11 +20,3 @@ tabs:
     path: /tty1
     user: root
     host: rhel
-  - name: "Grafana"
-    port: 3000
-    user: root
-    host: rhel
-  - name: "Cockpit"
-    port: 9090
-    user: root
-    host: rhel
